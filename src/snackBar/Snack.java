@@ -34,4 +34,19 @@ public class Snack
     {
         return vendingMachineId;
     }
+    //methods setters
+    public void setName(String name)
+    {
+        this.name = name;
+    }
+
+    public void setCost(double cost)
+    {
+        this.cost = cost;
+    }
+
+    public void setVendingMachineId(int vendingMachineId)
+    {
+        this.vendingMachineId = vendingMachineId;
+    }
 }
